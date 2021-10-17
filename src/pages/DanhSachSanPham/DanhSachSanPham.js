@@ -6,7 +6,6 @@ class DanhSachSanPham extends Component {
 
 
   render() {
-    var {sanphams} = this.props;
     return (
         <div className="Homepage">
             Da Dang Xuat

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Homepage from './pages/ComBoMotNguoi/Homepage';
 import ThemSP from './pages/Them San Pham/themsp'
 import MenuUuDai from './pages/MenuUuDai/MenuUuDai';
@@ -9,7 +9,6 @@ import DS from './pages/DanhSachSanPham/DanhSachSanPham';
 import Cart from './components/Cart/Cart';
 import DangKi from './pages/DangKi/Dangki';
 import DangNhap from './pages/DangKi/Dangnhap';
-import { propTypes } from 'react-bootstrap/esm/Image';
 import DienThongTin from './pages/DangKi/DienThongTin';
 
 

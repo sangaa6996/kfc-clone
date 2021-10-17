@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import SP from '../../components/SanPham/SanPham';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import api from '../../utils/apicaller'
 import { HienThiSanPham } from '../../actions';
 import { connect } from 'react-redux';

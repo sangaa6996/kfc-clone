@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import api from '../../utils/apicaller';
-import axios from 'axios';
 import {Form,Button} from 'react-bootstrap'
 import Dropdown from './dropdown';
 import Dropdown1 from './dropdown1';
