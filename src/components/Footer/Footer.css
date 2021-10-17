@@ -1,0 +1,65 @@
+footer {
+    background-color: #fafafa;
+  }
+  @media (min-width: 992px) and (max-width: 1024px) {
+    footer .container {
+        width: 992px;
+    }
+  }
+  .footer_top{
+    padding-bottom: 0.666666666666667em;
+    padding-top: 1em;
+  }
+  .footer_top .nav.flex-column .nav-link {
+    padding: 0;
+    border: none;
+    font-size: 0.75em;
+    color: rgb(0, 0, 0);
+  }
+  .footer_bot {
+    border-top: 1px solid #b7b7b7;
+    padding: 0.666666666666667em 0 1.111111111111111em;
+    color: #000;
+  }
+  .footer_bot p {
+    margin-bottom: 0;
+    font-size: 0.7777777777777778em;
+    /*font-size:0.7222222222222222em;*/
+  }
+  .footer_bot p strong {
+    font-size: 1.142857142857143em;
+  }
+  .footer_bot .text_copyright {
+    padding-top: 1.666666666666667em;
+  }
+  #footer a:hover{
+    color:#c21634;
+  }
+  #footer a:hover span{
+    color:inherit;
+  }
+  .footer_top .card_item_header a span {
+    font-size: 0.78em;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .footer_top .nav_social {
+    font-size: 1em;
+  }
+  .nav_social .nav-link {
+    font-size: 18px;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 0.7777777777777778rem;
+  }
+  .nav_social .nav-link img {
+    height: 25px;
+  }
+  .nav_social .nav-link {
+    background-color: transparent;
+    color: #e4002b;
+  }

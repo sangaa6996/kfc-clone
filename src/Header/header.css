@@ -1,0 +1,86 @@
+header .nav-scroller {
+    background-color: #f8f8f8;
+}
+header .nav-scroller .nav-item {
+    margin-right: 1px;
+}
+header .nav-scroller .nav-item.active .nav-link,
+header .nav-scroller .nav-item:hover .nav-link {
+    background-color: #000;
+    color: #fff;
+}
+header .nav-scroller .nav-link {
+    font-size: 1em;
+    padding: 0.9722222222222222em;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+header .nav-scroller .nav-link span {
+    font-size: 0.8888888888888889em;
+}
+header .navbar-light {
+    padding: 1em 1.111111111111111em;
+}
+header .navbar-brand {
+    padding: 0;
+}
+.cart_box .dropdown-toggle {
+    font-size: 1em;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    padding: 0.6666666666666667em 1em;
+}
+
+.justify-content-start {
+    -ms-flex-pack: start!important;
+    justify-content: flex-start!important;
+}
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.sidebar__inner {
+    transform: translate(0, 0);
+    transform: translate3d(0, 0, 0);
+    will-change: position, transform;
+}
+.wap_nav_fix {
+    z-index: 3;
+    transition: all .2s;
+    position: relative;
+}
+.sidebar {
+    will-change: min-height;
+}
+a, a:active, a:hover, a:focus, a:visited, [onclick], .btn, .btn:active, .btn:hover, .btn:focus, .btn:visited, button, button:active, button:hover, button:focus, button:visited {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none !important;
+    transition: all 0.2s;
+}
